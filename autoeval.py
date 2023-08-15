@@ -33,7 +33,7 @@ from langchain.chains.question_answering import load_qa_chain
 #from chromadb.config import Settings
 import json
 
-from langchain.vectorstores import Chroma
+#from langchain.vectorstores import Chroma
 from langchain.docstore.document import Document
 
 from langchain.document_loaders.json_loader import JSONLoader
@@ -75,7 +75,7 @@ loader = JSONLoader(
 
 meta1 = loader.load()
 
-db1 = Chroma.from_documents(data1, embeddings)
+db1 = FAISS.from_documents(data1, embeddings)
 
 student_q1 = st.text_input ("What is the difference between a stack and a queue in programming?")
 
