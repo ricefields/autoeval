@@ -30,27 +30,14 @@
 		    "ans": "A stack is a data structure where elements are added and removed from the top. A queue is also a data structure but elements are added at one end and removed from the other.",
 	"marks": "3"
 	},
-
-	{
-            "ans": "A stack is last-in-first-out.",
-	    "marks": "1"
-	},
-	{
-            "ans": "A queue is first-in-first-out.",
-	    "marks": "0"
-	},
 	
 	{
-            "ans": "A stack is first-in-first-out.",
-	    "marks": "1"
-	},
-	{
-            "ans": "Stack and queue are data structures in computer science.",
+            "ans": "A stack is a last-in-first-out construct.",
 	    "marks": "1"
 	},
 
 	{
-            "ans": "A queue is first-in-first-out.",
+            "ans": "A queue is first-in-first-out construct.",
 	    "marks": "1"
 	}
 
