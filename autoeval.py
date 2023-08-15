@@ -93,11 +93,11 @@ meta2 = loader.load()
 
 db2 = FAISS.from_documents(data2, embeddings)
 
-student_q2 = st.text_input ("Solve the quadratic equation x^2 - 5x + 6 = 0")
+#student_q2 = st.text_input ("Solve the quadratic equation x^2 - 5x + 6 = 0")
 
 #student_q1 = "A stack is a data structure that allows first-in, first-out while a queue is a datastructure that allows first-in, last-out"student_q1 = "A stack is a pyjama, a queue is a cot"
 #student_q2 = "x=6 and x=5"
-matching_docs = db1.similarity_search_with_score(student_q2, 1)
+matching_docs = db1.similarity_search_with_score(student_q1, 1)
 print ("Similarity Score =", matching_docs[0][1])
 
 if (matching_docs[0][1] < 0.25):
