@@ -6,4 +6,3 @@ PyPDF2
 faiss-cpu
 unstructured
 tiktoken
-Chromadb
