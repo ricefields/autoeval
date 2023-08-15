@@ -101,7 +101,7 @@ matching_docs = db1.similarity_search_with_score(student_q1, 1)
 print ("Similarity Score =", matching_docs[0][1])
 
 if (matching_docs[0][1] < 0.25):
-    score = meta1[matching_docs[0][0].metadata['seq_num']-1].page_content
+    score = int(meta1[matching_docs[0][0].metadata['seq_num']-1].page_content)
 else:
     score = 0
 
