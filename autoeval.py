@@ -29,8 +29,8 @@ from langchain import ConversationChain
 from langchain.embeddings import HuggingFaceEmbeddings
 
 from langchain.chains.question_answering import load_qa_chain
-import chromadb
-from chromadb.config import Settings
+#import chromadb
+#from chromadb.config import Settings
 import json
 
 from langchain.vectorstores import Chroma
