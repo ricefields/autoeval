@@ -1,0 +1,20 @@
+{
+    "items": [
+	{
+            "ans": "It is a top-down search method. Such algorithms can be very efficient and can save execution time and memory. Binary search is an example of a problem that can be solved using a divide and conquer approach.",
+	"marks": "1"
+    },
+
+	{
+	"ans": "It involves breaking a problem into non-overlapping subproblems and solving the sub-problem only once. Usually recursion is used to solve the sub-problems",
+	"marks": "2"
+	},
+
+		{
+	"ans": "It is the same as greedy algorithms",
+	"marks": "0"
+	}
+
+	
+   ]
+}

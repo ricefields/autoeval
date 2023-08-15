@@ -1,0 +1,23 @@
+{
+    "items": [
+	
+	{
+            "ans": "x=2 and x=3",
+	    "marks": "5"
+	},
+		{
+            "ans": "x=2",
+	    "marks": "3"
+		},
+
+		{
+            "ans": "x=3",
+	    "marks": "3"
+	},
+		{
+            "ans": "any value of x other than 2 or 3",
+	    "marks": "0"
+	}
+
+   ]
+}
