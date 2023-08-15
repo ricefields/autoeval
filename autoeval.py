@@ -109,5 +109,5 @@ print ("Recommended Marks =", score)
 
 if (st.button("Evaluate")):
     st.write ("Your score is", score, "out of 5")
-    st.write ("Similarity Score is", matching_docs[0][1], "Index in file is", matching_docs[0][0].metadata['seq_num']-1)
+    st.write ("Similarity Score is", matching_docs[0][1], "Index in file is", matching_docs[0][0].metadata['seq_num'])
 
